@@ -22,7 +22,6 @@ func NewToolkit(name string, opts ...ToolkitOption) *Toolkit {
 	return toolkit
 }
 
-func (t *Toolkit) GetID() string          { return t.name }
 func (t *Toolkit) GetName() string        { return t.name }
 func (t *Toolkit) GetDescription() string { return t.description }
 
