@@ -1,0 +1,6 @@
+# Mark all Go files as vendored
+*.go linguist-vendored=true
+
+# Ensure Rust files are detected
+*.rs linguist-detectable=true
+*.rs linguist-language=Rust
