@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/soralabs/toolkit"
+	toolkit "github.com/soralabs/toolkit/go"
 )
 
 type Calculation struct {

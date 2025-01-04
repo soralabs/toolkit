@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/soralabs/toolkit"
+	toolkit "github.com/soralabs/toolkit/go"
 )
 
 func main() {
