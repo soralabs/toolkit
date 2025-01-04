@@ -15,7 +15,7 @@ A dual-language package (Go/Rust) for building and managing LLM function calling
 
 ### Go
 ```bash
-go get github.com/soralabs/toolkit/go
+go get github.com/soralabs/toolkit
 ```
 
 ### Rust
