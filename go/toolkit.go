@@ -9,9 +9,8 @@ type Toolkit struct {
 	tools       map[string]Tool // map of tool name to tool
 }
 
-func NewToolkit(name string, opts ...ToolkitOption) *Toolkit {
+func NewToolkit(opts ...ToolkitOption) *Toolkit {
 	toolkit := &Toolkit{
-		name:  name,
 		tools: make(map[string]Tool),
 	}
 

@@ -8,7 +8,8 @@ use toolkit::toolkit::Toolkit;
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let custom_tool = CustomTool::new();
 
-    let toolkit = Toolkit::builder("my-toolkit".to_string())
+    let toolkit = Toolkit::builder()
+        .name("my-toolkit".to_string())
         .description("My toolkit".to_string())
         .add_tool(Arc::new(custom_tool))
         .build();

@@ -10,9 +10,9 @@ pub struct Toolkit {
 }
 
 impl Toolkit {
-    pub fn builder(name: String) -> ToolkitBuilder {
+    pub fn builder() -> ToolkitBuilder {
         ToolkitBuilder {
-            name,
+            name: String::new(),
             description: None,
             tools: HashMap::new(),
         }
@@ -52,6 +52,11 @@ pub struct ToolkitBuilder {
 impl ToolkitBuilder {
     pub fn description(mut self, description: String) -> Self {
         self.description = Some(description);
+        self
+    }
+
+    pub fn name(mut self, name: String) -> Self {
+        self.name = name;
         self
     }
 

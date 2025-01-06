@@ -8,7 +8,10 @@ import (
 
 func main() {
 	// Create a new toolkit
-	tk := toolkit.NewToolkit("math-toolkit", toolkit.WithToolkitDescription("A toolkit for mathematical operations"))
+	tk := toolkit.NewToolkit(
+		toolkit.WithToolkitName("math-toolkit"),
+		toolkit.WithToolkitDescription("A toolkit for mathematical operations"),
+	)
 
 	// Create and register the addition tool
 	addition := &AdditionTool{}
