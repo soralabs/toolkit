@@ -2,7 +2,7 @@ mod custom_tool;
 use custom_tool::CustomTool;
 use serde_json::json;
 use std::sync::Arc;
-use toolkit::toolkit::Toolkit;
+use toolkit::Toolkit;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
