@@ -1,7 +1,7 @@
 # Toolkit
 
 <div align="center">
-  <img src="./img/banner_sora.png" alt="Sora Banner" width="100%" />
+  <img src="./img/sora_readme_banner.png" alt="Sora Banner" width="100%" />
 </div>
 
 A dual-language package (Go/Rust) for building and managing LLM function calling tools and toolkits. Built specifically for Zen.
